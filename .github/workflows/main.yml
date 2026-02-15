@@ -13,7 +13,7 @@ permissions:
 jobs:
   build:
 
-    runs-on: ubuntu-32-core
+    runs-on: ubuntu-large
 
     steps:
     - uses: actions/checkout@v4
